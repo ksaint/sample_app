@@ -17,7 +17,7 @@ gem 'rspec-rails', group: [:development, :test]
 gem 'selenium-webdriver', group: :test
 gem 'capybara', group: :test
 gem 'factory_girl_rails', group: :test
-gem 'cucumber-rails', group: :test
+gem 'cucumber-rails', :require => false, group: :test
 gem 'database_cleaner', group: :test
 gem 'libnotify', group: :test
 
